@@ -2,6 +2,13 @@ html {
   scroll-behavior: smooth;
 }
 
+::-moz-selection {
+  background: #238364;
+}
+::selection {
+  background: #238364;
+}
+
 body {
   font-family: "Work Sans", sans-serif;
   background-color: #1e1d24;
