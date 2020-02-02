@@ -19,7 +19,7 @@ echo "Removing existing files"
 rm -rf public/*
 
 echo "Copying site"
-cp -r src public
+cp -r src/* public
 
 echo "Updating gh-pages branch"
 cp ./CNAME public 
