@@ -23,6 +23,6 @@ cp -r src/* public
 
 echo "Updating gh-pages branch"
 cp ./CNAME public 
-cd public && git add --all && git commit -m ":rocket: Publishing to gh-pages (publish.sh)"
+cd public && git add --all && git commit -m ":rocket: Publicando sitio en gh-pages (publish.sh)"
 
 git push origin gh-pages
