@@ -15,6 +15,11 @@ body {
   color: #f5faff;
 }
 
+.bg {
+  background-image: linear-gradient(to bottom, transparent, #1a5052),
+    url(../images/bg.svg);
+}
+
 h1 {
   font-family: "Oswald", sans-serif;
   font-size: 1.8em;
